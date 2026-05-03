@@ -8,7 +8,6 @@ public class LRUFrame {
         this.val = v;
     }
 
-    // In LRUFrame -- displays just this single node
     public void display() {
         System.out.println("Frame [ key=" + key + " | val=" + val + " ]");
     }
